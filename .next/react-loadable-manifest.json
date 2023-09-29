@@ -1,0 +1,92 @@
+{
+  "../components/Footer/Footer.js -> @components/common/Icon/IconArrowRightWhite": {
+    "id": "../components/Footer/Footer.js -> @components/common/Icon/IconArrowRightWhite",
+    "files": [
+      "static/chunks/components_common_Icon_IconArrowRightWhite_js.js"
+    ]
+  },
+  "../components/Footer/Footer.js -> @components/common/Icon/IconFacebook": {
+    "id": "../components/Footer/Footer.js -> @components/common/Icon/IconFacebook",
+    "files": [
+      "static/chunks/components_common_Icon_IconFacebook_js.js"
+    ]
+  },
+  "../components/Footer/Footer.js -> @components/common/Icon/IconInsta": {
+    "id": "../components/Footer/Footer.js -> @components/common/Icon/IconInsta",
+    "files": [
+      "static/chunks/components_common_Icon_IconInsta_js.js"
+    ]
+  },
+  "../components/Footer/Footer.js -> @components/common/Icon/IconTwitter": {
+    "id": "../components/Footer/Footer.js -> @components/common/Icon/IconTwitter",
+    "files": [
+      "static/chunks/components_common_Icon_IconTwitter_js.js"
+    ]
+  },
+  "../node_modules/next/dist/client/index.js -> ../pages/_app": {
+    "id": "../node_modules/next/dist/client/index.js -> ../pages/_app",
+    "files": [
+      "static/chunks/node_modules_next_dist_pages__app_js.js"
+    ]
+  },
+  "../node_modules/next/dist/client/index.js -> ../pages/_error": {
+    "id": "../node_modules/next/dist/client/index.js -> ../pages/_error",
+    "files": [
+      "static/chunks/node_modules_next_dist_pages__error_js.js"
+    ]
+  },
+  "index.js -> @components/home/awardSection": {
+    "id": "index.js -> @components/home/awardSection",
+    "files": [
+      "static/chunks/components_home_awardSection_js.js"
+    ]
+  },
+  "index.js -> @components/home/blogSection": {
+    "id": "index.js -> @components/home/blogSection",
+    "files": [
+      "static/chunks/components_home_blogSection_js.js"
+    ]
+  },
+  "index.js -> @components/home/clientSection": {
+    "id": "index.js -> @components/home/clientSection",
+    "files": [
+      "static/chunks/components_home_clientSection_js.js"
+    ]
+  },
+  "index.js -> @components/home/contactSection": {
+    "id": "index.js -> @components/home/contactSection",
+    "files": [
+      "static/chunks/components_home_contactSection_js.js"
+    ]
+  },
+  "index.js -> @components/home/heroSection": {
+    "id": "index.js -> @components/home/heroSection",
+    "files": [
+      "static/chunks/components_home_heroSection_js.js"
+    ]
+  },
+  "index.js -> @components/home/industriesSection": {
+    "id": "index.js -> @components/home/industriesSection",
+    "files": [
+      "static/chunks/components_home_industriesSection_js.js"
+    ]
+  },
+  "index.js -> @components/home/introSection": {
+    "id": "index.js -> @components/home/introSection",
+    "files": [
+      "static/chunks/components_home_introSection_js.js"
+    ]
+  },
+  "index.js -> @components/home/projectsSection": {
+    "id": "index.js -> @components/home/projectsSection",
+    "files": [
+      "static/chunks/components_home_projectsSection_js.js"
+    ]
+  },
+  "index.js -> @components/home/topQualitySection": {
+    "id": "index.js -> @components/home/topQualitySection",
+    "files": [
+      "static/chunks/components_home_topQualitySection_js.js"
+    ]
+  }
+}

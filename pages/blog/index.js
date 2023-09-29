@@ -83,7 +83,6 @@ function groupByCategoryPaged(data = []) {
 
 const Blog = ({
   blogs,
-  total,
   allBlogs,
   pagedAllBlogs,
   pagedBlogs,
@@ -132,9 +131,7 @@ const Blog = ({
       </section>
       <BlogMain
         expertises={blogs}
-        total={total}
         blogs={allBlogs}
-        totalBlogsData={totalBlogsData}
         pagedBlogs={pagedBlogs}
         pagedAllBlogs={pagedAllBlogs}
       />
@@ -161,7 +158,6 @@ export async function getServerSideProps({ params }) {
   return {
     props: {
       blogs: blogsData,
-      total,
       allBlogs: data,
       pagedBlogs,
       pagedAllBlogs,
