@@ -85,7 +85,6 @@ const Blog = ({
   blogs,
   total,
   allBlogs,
-  totalBlogsData,
   pagedAllBlogs,
   pagedBlogs,
 }) => {
@@ -150,12 +149,6 @@ export async function getServerSideProps({ params }) {
 
   const data = blogs?.data ?? [];
 
-  const blogsTotal = await fetchAPI(
-    "blogs?pagination[pageSize]=1000&pagination[page]=1&populate=*&sort[0]=publishedAt:DESC"
-  );
-
-  const total = blogsTotal?.data ? blogsTotal?.data.length : [];
-  const totalBlogsData = groupByCategory(blogsTotal?.data);
   if (!data) {
     return {
       props: { blogs: [] },
@@ -170,7 +163,6 @@ export async function getServerSideProps({ params }) {
       blogs: blogsData,
       total,
       allBlogs: data,
-      totalBlogsData,
       pagedBlogs,
       pagedAllBlogs,
     },
